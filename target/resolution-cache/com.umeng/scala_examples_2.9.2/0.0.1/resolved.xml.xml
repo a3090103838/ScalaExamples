@@ -4,7 +4,7 @@
 		module="scala_examples_2.9.2"
 		revision="0.0.1"
 		status="integration"
-		publication="20130915141642"
+		publication="20140302120608"
 	>
 		<description>
 		scala_examples
@@ -32,10 +32,7 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.9.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe" name="config" rev="1.0.0" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-core_2.9.2" rev="6.5.2" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-http_2.9.2" rev="6.5.2" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-mysql_2.9.2" rev="6.5.2" conf="compile->default(compile)"/>
+		<dependency org="com.twitter" name="util-core_2.9.2" rev="6.3.8" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.9.2"/>

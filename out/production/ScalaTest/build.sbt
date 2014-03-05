@@ -14,6 +14,9 @@ resolvers ++= Seq(
 libraryDependencies ++= {
   val finagleVersion = "6.5.2"
   Seq(
-	    "com.twitter" %% "util-core" % "6.3.8"
+    "com.typesafe" % "config" % "1.0.0",
+    "com.twitter" %% "finagle-core" % finagleVersion,
+    "com.twitter" %% "finagle-http" % finagleVersion,
+    "com.twitter" %% "finagle-mysql" % finagleVersion
   ) 
 }
